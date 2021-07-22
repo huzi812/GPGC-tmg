@@ -1,0 +1,1 @@
+const loader=document.querySelector(".loader"),main=document.querySelector(".main");function init(){setTimeout(()=>{loader.style.display="none",main.style.display="block",setTimeout(()=>main.style.opacity=1,50)},3e3)}init();
