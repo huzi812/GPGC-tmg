@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="inam.css">
     <link rel="stylesheet" href="ammo.css">
     <link rel="stylesheet" href="blog.css">
-    <!-- <link rel="stylesheet" href="books&syllabus.css"> -->
+    <link rel="stylesheet" href="books&syllabus.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="footer.css">
     <!-- <link rel="stylesheet" href="loader.css"> -->
@@ -25,100 +25,7 @@
 
 
     <style>
-        .books {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .books__title {
-            text-align: center;
-
-        }
-
-        .books__paragraph {
-            background-color: rgb(90, 121, 7);
-            margin: 0px 23px;
-        }
-
-        .books__showcase {
-            width: 70vw;
-            height: 70vh;
-            border-radius: 23px;
-        }
-
-        .books__content {
-            background-color: rgb(90, 121, 7);
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: column;
-            width: 90vw;
-            border-radius: 23px;
-            height: 100vh;
-        }
-
-        @media only screen and (max-width:750px) {
-            .books__showcase {
-                height: 30vh;
-            }
-
-            .books__content {
-                height: 60vh;
-            }
-        }
-
-        .btn {
-
-            font-size: 15px;
-            background-color: rgb(0, 0, 0);
-            color: rgb(248, 252, 248);
-            border-radius: 13px;
-            padding: 10px;
-            width: 25vh;
-            border: 0px;
-
-        }
-
-        .btn:hover {
-            background-color: rgb(30, 89, 0);
-        }
-
-        .syllabus__title {
-            text-align: center;
-        }
-
-        .syllabus {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .syllabus__content {
-            background-color: rgb(90, 121, 7);
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: column;
-            width: 90vw;
-            border-radius: 23px;
-            height: 70vh;
-        }
-
-        .syllabus__img {
-            width: 20vw;
-            height: 20vw;
-        }
-        @media only screen and (max-width:750px) {
-            .syllabus__img {
-            width: 30vw;
-          height: 18vh;
-        }
-
-            .syllabus__content {
-                height: 40vh;
-            }
-        }
+     
 
        
     </style>
@@ -223,10 +130,13 @@
 
                 <ul id="nav-lists">
                     <li class="close"><span onclick="Hide()">×</span></li>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
                     <li><a href="#">Blog</a></li>
+                    <li><a href="http://127.0.0.1:5500/books.html">Books</a></li>
+                    <li><a href="#">Syllabus</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="#">Creator section</a></li>
                 </ul>
             </div>
         </div>
@@ -286,10 +196,10 @@
         </div>
         <div class="books">
             <div class="books__content">
-                <img src="./Supercompresed/Copy of Untitled.jpg" alt="" class="books__showcase">
+                <img loading="lazy" src="./Supercompresed/Copy of Untitled.jpg" alt="" class="books__showcase">
                 <p class="books__paragraph">You want an understanding & appreciation of the role plants play in all
                     aspects of our worl.</p>
-                <button class="btn books__btn">click here</button>
+                <button onclick="document.location='books.html'" class="btn books__btn">click here</button>
             </div>
         </div>
 
@@ -308,19 +218,6 @@
 
 
 
-        <!-- books and syllabus-->
-        <!-- <div class="booksAndSyllabus--title">Books & Syllabus</div>
-        <div class="booksAndSyllabus--box">
-            <div class="booksAndSyllabus">
-                <div class="books">
-                    <a href="syllabus.html"><img class="books--icon" src="./Supercompresed/syllabus.svg" alt=""></a>
-                    <button onclick="document.location='syllabus.html'">Syllabus</button>
-                </div>
-                <div class="syllabus">
-                    <img class="books--icon" src="./Supercompresed/laptop-books-2.svg" alt="">
-                    <button>Books</button>
-                </div>
-            </div>
         </div> -->
         <!-- imageGallerry -->
         <p class="image-gallery-tittle">Events</p>
@@ -346,16 +243,17 @@
 
             </div>
             <div class="footer__bottom">
+               
                 <p>
                     &copy;2021 GPGC-tmg <a class="amo" href="">Amo</a><a class="uzi" href="">uzi</a>.design
                 </p>
+                
             </div>
 
         </footer>
 
 
     </section>
-
 
 
 
