@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="inam.css">
     <link rel="stylesheet" href="ammo.css">
     <link rel="stylesheet" href="blog.css">
-    <link rel="stylesheet" href="books&syllabus.css">
+    <!-- <link rel="stylesheet" href="books&syllabus.css"> -->
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="loader.css">
+    <!-- <link rel="stylesheet" href="loader.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,17 +25,108 @@
 
 
     <style>
-      
+        .books {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-      
+        .books__title {
+            text-align: center;
 
-        
+        }
+
+        .books__paragraph {
+            background-color: rgb(90, 121, 7);
+            margin: 0px 23px;
+        }
+
+        .books__showcase {
+            width: 70vw;
+            height: 70vh;
+            border-radius: 23px;
+        }
+
+        .books__content {
+            background-color: rgb(90, 121, 7);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            width: 90vw;
+            border-radius: 23px;
+            height: 100vh;
+        }
+
+        @media only screen and (max-width:750px) {
+            .books__showcase {
+                height: 30vh;
+            }
+
+            .books__content {
+                height: 60vh;
+            }
+        }
+
+        .btn {
+
+            font-size: 15px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(248, 252, 248);
+            border-radius: 13px;
+            padding: 10px;
+            width: 25vh;
+            border: 0px;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(30, 89, 0);
+        }
+
+        .syllabus__title {
+            text-align: center;
+        }
+
+        .syllabus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .syllabus__content {
+            background-color: rgb(90, 121, 7);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            width: 90vw;
+            border-radius: 23px;
+            height: 70vh;
+        }
+
+        .syllabus__img {
+            width: 20vw;
+            height: 20vw;
+        }
+        @media only screen and (max-width:750px) {
+            .syllabus__img {
+            width: 30vw;
+          height: 18vh;
+        }
+
+            .syllabus__content {
+                height: 40vh;
+            }
+        }
+
+       
     </style>
 </head>
 
 <body>
     <!-- loader -->
-  <div class="loader">
+    <!-- <div class="loader">
 
         <div class="img">
             <img src="./Supercompresed/GPGC TIimergara.png" alt="" class="loader-image">
@@ -43,8 +134,8 @@
         <div class="h1">
             <h2>loading...</h2>
         </div>
-    
-  </div>
+
+    </div> -->
 
 
     <section class="main">
@@ -55,51 +146,53 @@
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image1.jpg">
                 <div class="text">
-                    <h1 class="welcome">Welcome</h1>
-                    <p class="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam optio quae sapiente
-                        nostrum et
-                        repudiandae quo. Natus, laborum tempora</p>
+                    <h1 class="welcome">BEAUTY OF THE AWESOME NATURE YEARLONG</h1>
+                    <p class="BOTANY">BOTANY</p>
                 </div>
             </div>
 
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image2.jpg">
                 <div class="text">
-                    <h1 class="welcome">Bring Nature</h1>
-                    <p class="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam optio quae sapiente
-                        nostrum, laborum tempora</p>
+                    <h1 class="welcome1">WELCOME To the official Website for the Department of Botany GPGC-Timergara
+                    </h1>
+                    <p class="quote"></p>
                 </div>
             </div>
 
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image3.jpg">
                 <div class="text">
-                    <h1 class="welcome">Welcome</h1>
-                    <p class="quote">To the official Website for the Department of Botany GPGC-Timergara</p>
+                    <h1 class="welcome">BEAUTY</h1>
+                    <p class="quote">B</p>
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image1.jpg">
                 <div class="text">
-                    <h1 class="welcome">Welcome</h1>
-                    <p class="quote">To the official Website for the Department of Botany GPGC-Timergara</p>.
+                    <h1 class="welcome">BEAUTY OF</h1>
+                    <p class="quote">BO</p>.
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image2.jpg">
                 <div class=" text">
-                    <h1 class="welcome">welcome welcome </h1>
-                    <p class="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam optio quae sapiente
-                        nostrum perspictempora</p>
+                    <h1 class="welcome">BEAUTY OF THE</h1>
+                    <p class="quote">BOT</p>
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image3.jpg">
                 <div class="text">
-                    <h1 class="welcome">welcome welcome</h1>
-                    <p class="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaur ab maxime libero at
-                        amet et
-                        repudiandae quo. Natus, laborum tempora</p>
+                    <h1 class="welcome">BEAUTY OF THE AWESOME</h1>
+                    <p class="quote">BOTA</p>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img class="slide" src="./Supercompresed/image3.jpg">
+                <div class="text">
+                    <h1 class="welcome">BEAUTY OF THE AWESOME NATURE</h1>
+                    <p class="quote">BOTAN</p>
                 </div>
             </div>
 
@@ -143,7 +236,7 @@
         <p class="HODmessage">HOD message</p>
         <div class="inam-box">
             <div class="inam">
-                <img loading="lazy"  class="inamImg" src="./Supercompresed/inam.jpg" alt="">
+                <img loading="lazy" class="inamImg" src="./Supercompresed/inam.jpg" alt="">
                 <p class="message">
                 <blockquote><q>
                         <p class="mmm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam numquam
@@ -173,21 +266,50 @@
             </div>
             <div class="blog__posts-box">
                 <span class="blog__posts">
-                    <img loading="lazy"  src="./Supercompresed/leave.png" alt="" class="blog__image">
+                    <img loading="lazy" src="./Supercompresed/leave.png" alt="" class="blog__image">
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, facere!</h3>
                 </span>
                 <span class="blog__posts" id="blog__post--id2">
-                    <img loading="lazy"  src="./Supercompresed/leave.png" alt="" class="blog__image">
+                    <img loading="lazy" src="./Supercompresed/leave.png" alt="" class="blog__image">
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, facere!</h3>
                 </span>
                 <span class="blog__posts" id="blog__post--id1">
-                    <img loading="lazy"  src="./Supercompresed/leave.png" alt="" class="blog__image">
+                    <img loading="lazy" src="./Supercompresed/leave.png" alt="" class="blog__image">
                     <h3>Lorem ipsum doing elit. Quod, facere!</h3>
                 </span>
             </div>
         </div>
+
+        <!-- Books -->
+        <div class="books__title">
+            <h1>Amazing BOOKs</h1>
+        </div>
+        <div class="books">
+            <div class="books__content">
+                <img src="./Supercompresed/Copy of Untitled.jpg" alt="" class="books__showcase">
+                <p class="books__paragraph">You want an understanding & appreciation of the role plants play in all
+                    aspects of our worl.</p>
+                <button class="btn books__btn">click here</button>
+            </div>
+        </div>
+
+        <!-- syllabus -->
+        <div class="syllabus__title">
+            <h1>Syllabus</h1>
+        </div>
+        <div class="syllabus">
+            <div class="syllabus__content">
+                <img class="syllabus__img" src="./Supercompresed/syllabus.svg" alt="">
+                <button onclick="document.location='syllabus.html'" class="btn syllabus__btn">syllabus</button>
+            </div>
+
+        </div>
+
+
+
+
         <!-- books and syllabus-->
-        <div class="booksAndSyllabus--title">Books & Syllabus</div>
+        <!-- <div class="booksAndSyllabus--title">Books & Syllabus</div>
         <div class="booksAndSyllabus--box">
             <div class="booksAndSyllabus">
                 <div class="books">
@@ -199,11 +321,11 @@
                     <button>Books</button>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- imageGallerry -->
         <p class="image-gallery-tittle">Events</p>
         <div class="image-gallery">
-            <img loading="lazy"  src="./Supercompresed/gallery.png" alt="">
+            <img loading="lazy" src="./Supercompresed/gallery.png" alt="">
         </div>
         <!-- footer  -->
 
@@ -239,7 +361,7 @@
 
 
     <script src="navbar.js"></script>
-    <script src="loader.js"></script>
+    <!-- <script src="loader.js"></script> -->
     <script src="slideShow.js"></script>
 
 
