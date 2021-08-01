@@ -22,9 +22,10 @@
     font-weight: bolder;
 }
 .BOTANY{
-    font-size: 60px;
+    font-size: 55px;
     color: rgb(2, 2, 75);
     font-weight: bolder;
+    margin: 0%;
 }
 
 @media only screen and (max-width:780px) {
@@ -118,9 +119,11 @@
 
 @media only screen and (max-width:750px) {
     .slide {
-        height: 70vh
+        height: 60vh;
+        top: 70px;
     }
     .slideshow-container {
-        height: 70vh
+        height: 60vh;
+        top: 70px;
     }
 }
