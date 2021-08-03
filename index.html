@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="books&syllabus.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="backToTop.css">
     <!-- <link rel="stylesheet" href="loader.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +27,12 @@
 
     <style>
 
+    </style>
 
+
+    #myBtn:hover {
+    background-color: #555;
+    }
 
     </style>
 </head>
@@ -205,7 +211,7 @@
                 <div class="books__showcase">
                     <img src="./Supercompresed/Copy of Untitled.jpg" alt="">
                 </div>
-                <button  onclick="document.location='books.html'" class="btn books__btn">Books</button>
+                <button onclick="document.location='books.html'" class="btn books__btn">Books</button>
             </div>
         </div>
 
@@ -214,7 +220,7 @@
             <div class="syllabus__title">Syllabus</div>
             <div class="syllabus__content">
                 <img src="./Supercompresed/syllabus.svg" alt="">
-                <button  onclick="document.location='sylbs/sylNavigation.html'" class="btn books__btn">Syllabus</button>
+                <button onclick="document.location='sylbs/sylNavigation.html'" class="btn books__btn">Syllabus</button>
             </div>
         </div>
 
@@ -256,7 +262,7 @@
 
         </footer>
 
-
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
     </section>
 
 
@@ -265,7 +271,7 @@
     <script src="navbar.js"></script>
     <!-- <script src="loader.js"></script> -->
     <script src="slideShow.js"></script>
-
+    <script src="backToTop.js"></script>
 
 </body>
 
