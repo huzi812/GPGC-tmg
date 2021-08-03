@@ -2,28 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .books__title {
     text-align: center;
-
-}
-
-.books__paragraph {
-    background-color: rgb(90, 121, 7);
-    margin: 0px 23px;
-}
-
-.books__showcase {
-    width: 70vw;
-    height: 70vh;
-    border-radius: 23px;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 0%;
+    margin-top: 23px;
+    margin-bottom: 23px
 }
 
 .books__content {
     background-color: rgb(90, 121, 7);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     width: 90vw;
@@ -31,18 +25,30 @@
     height: 100vh;
 }
 
-@media only screen and (max-width:750px) {
-    .books__showcase {
-        height: 30vh;
-    }
+.books__paragraph {
+    background-color: rgb(90, 121, 7);
+    margin: 0px 23px;
+    font-size: 20px;
+    color: black;
+}
 
+.books__showcase img {
+    width: 60vw;
+    height: 60vh;
+    border-radius: 23px;
+}
+
+@media only screen and (max-width:750px) {
+    .books__showcase img {
+    height: 20vh;
+    }
     .books__content {
-        height: 60vh;
+        height: 70vh;
+        width: 90vw;
     }
 }
 
 .btn {
-
     font-size: 15px;
     background-color: rgb(0, 0, 0);
     color: rgb(248, 252, 248);
@@ -50,7 +56,6 @@
     padding: 10px;
     width: 25vh;
     border: 0px;
-
 }
 
 .btn:hover {
@@ -59,12 +64,18 @@
 
 .syllabus__title {
     text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 0%;
+    margin-top: 23px;
+    margin-bottom: 23px
 }
 
 .syllabus {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .syllabus__content {
@@ -78,17 +89,16 @@
     height: 70vh;
 }
 
-.syllabus__img {
+.syllabus__content img {
     width: 20vw;
     height: 20vw;
 }
-@media only screen and (max-width:750px) {
-    .syllabus__img {
-    width: 30vw;
-  height: 18vh;
-}
-
+@media only screen and (max-width:750px){
     .syllabus__content {
         height: 40vh;
+    }
+    .syllabus__content img {
+        width: 30vw;
+        height: 30vw;
     }
 }

@@ -10,7 +10,7 @@
     justify-content: center;
     flex-direction: column;
 }
-.welcome1{
+.welcome1 {
     font-size: 60px;
 }
 .welcome{
@@ -18,12 +18,12 @@
 }
 .quote{
     font-size: 32px;
-    color: rgb(2, 2, 75);
+    color:black;
     font-weight: bolder;
 }
 .BOTANY{
     font-size: 55px;
-    color: rgb(2, 2, 75);
+    color: black;
     font-weight: bolder;
     margin: 0%;
 }
