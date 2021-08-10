@@ -7,96 +7,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amouzi</title>
     <style>
-        
         * {
-	 margin: 0%;
-     padding: 0%;
-} 
-        body {
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: indigo;
+        }
+
+        section {
             background-color: indigo;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            margin: 0%;
-            padding: 0%;
          
-            
+           
+
+
         }
-   
+
         .card {
-            background-color:rgb(255, 255, 255);
-            width: 250px;
+            background-color: rgb(255, 255, 255);
+            width: 260px;
             display: flex;
             flex-direction: column;
             padding: 20px;
             margin: 5px;
             border-radius: 6px;
             height: 450px;
-          
-     
+            justify-content: space-around;
+
+
         }
-        .card__img{
+
+        .card__img {
             height: 65%;
             width: 250px;
         }
 
-    
+
         .card button {
             border: none;
             background-color: indigo;
             width: 50%;
-         padding: 10px;
-         margin: 13px  0px;
-        
+            padding: 10px;
+            margin: 13px 0px;
+
             color: white;
             font-family: 'Noto Sans KR', sans-serif;
             text-transform: uppercase;
-            
+
         }
-        .card button:hover{
+
+        .card button:hover {
             background-color: rgb(122, 122, 245);
         }
 
-       
+     
     </style>
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html class="no-js" lang="en-GB">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description"
-            content="An example pen showing how a basic CSS Grid container can create a nice, responsive card layout.">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>CSS Grid Cards</title>
-    </head>
 
-    </html>
-  
 
-            <div class="card"><img class="card__img"
-                    src="./Supercompresed/image2.jpg">
-                <div class="card__content">
-                    <h1 class="card__header">Amad Muhammad</h1>
-                    <p class="card__text">Artist and developer </p>
-                    <button class="card__btn">see more <span>&rarr;</span></button>
-                </div>
+    <section>
+        <div class="card">
+            <img class="card__img"
+                src="./Supercompresed/47685463_1097714987055998_5582660446244044800_n.jpg">
+            <div class="card__content">
+                <h1 class="card__header">Amad Muhammad</h1>
+                <p class="card__text">Artist and developer </p>
+                <button class="card__btn">see more <span>&rarr;</span></button>
             </div>
-     
-  
-            <div class="card"><img class="card__img"
-                    src="./Supercompresed/blog-header.jpg">
-                <div class="card__content">
-                    <h1 class="card__header">Huzaifa Habib</h1>
-                    <p class="card__text"> designer and developer</p>
-                    <button class="card__btn">see more <span>&rarr;</span></button>
-                </div>
+        </div>
+
+
+        <div class="card">
+            <img class="card__img" src="./Supercompresed/huxi.svg">
+            <div class="card__content">
+                <h1 class="card__header">Huzaifa  Habib</h1>
+                <p class="card__text"> designer and developer</p>
+                <button class="card__btn">see more <span>&rarr;</span></button>
             </div>
-     
+        </div>
+    </section>
+
 
 
 </body>

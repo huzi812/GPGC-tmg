@@ -1,16 +1,4 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box
-}
 
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: rgb(117, 138, 58);
-    font-family: 'Old Standard TT', serif;
-    color: whitesmoke
-}
 
 .container {
     height: 70px;
@@ -67,6 +55,7 @@ body {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  
     padding: 0 10px;
     height: 70px;
 }
@@ -92,7 +81,7 @@ body {
     height:60px;
     line-height: 60px;
     cursor: pointer;
-    padding: 6px 10px
+    padding: 6px 15px
 }
 
 .container .navbar ul li a:hover {

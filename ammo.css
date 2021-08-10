@@ -1,1 +1,19 @@
-.ammo{width:30%;bottom:100px;left:80px;position:relative;color:#fff}.A-span{font-style:italic;color:rgba(86,9,209,.679);border:0}@media only screen and (max-width:750px){.ammo{bottom:84px;left:37px;position:relative}}
+.ammo {
+    width: 30%;
+    bottom: 100px;
+    left: 80px;
+    position: relative;
+    color: #fff;
+}
+.A-span {
+    font-style: italic;
+    color: rgba(86, 9, 209, 0.679);
+    border: 0;
+}
+@media only screen and (max-width: 750px) {
+    .ammo {
+        bottom: 84px;
+        left: 37px;
+        position: relative;
+    }
+}

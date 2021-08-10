@@ -15,23 +15,36 @@
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="backToTop.css">
-    <!-- <link rel="stylesheet" href="loader.css"> -->
+    <link rel="stylesheet" href="loader.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
 
     <style>
+@font-face {
+    font-family: DMSerifDisplay;
+    src: url(./fonts/DMSerifDisplay-Italic.ttf);
+}
 
-    </style>
+*, *::before, *::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(117, 138, 58);
+    font-family: 'Old Standard TT', serif;
+    color: whitesmoke
+}
 
 
     #myBtn:hover {
-    background-color: #555;
+        background-color:rgb(30, 89, 0);
     }
 
     </style>
@@ -39,7 +52,7 @@
 
 <body>
     <!-- loader -->
-    <!-- <div class="loader">
+    <div class="loader">
 
         <div class="img">
             <img src="./Supercompresed/GPGC TIimergara.png" alt="" class="loader-image">
@@ -48,7 +61,7 @@
             <h2>loading...</h2>
         </div>
 
-    </div> -->
+    </div>
 
 
     <section class="main">
@@ -59,7 +72,7 @@
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image2.jpg">
                 <div class="text">
-                    <h1 class="welcome">BEAUTY OF THE AWESOME NATURE YEARLONG</h1>
+                    <h1>BEAUTY OF THE AWESOME NATURE YEARLONG</h1>
                     <p class="BOTANY">BOTANY</p>
                 </div>
             </div>
@@ -67,7 +80,7 @@
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image1.jpg">
                 <div class="text">
-                    <h1 class="welcome1">Welcome to the official website for GPGC timergara</h1>
+                    <h1>Welcome to the official website for GPGC timergara</h1>
                     <p class="quote"></p>
                 </div>
             </div>
@@ -77,35 +90,35 @@
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image3.jpg">
                 <div class="text">
-                    <h1 class="welcome">BEAUTY</h1>
+                    <h1>BEAUTY</h1>
                     <p class="quote">B</p>
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image1.jpg">
                 <div class="text">
-                    <h1 class="welcome">BEAUTY OF</h1>
+                    <h1>BEAUTY OF</h1>
                     <p class="quote">BO</p>.
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image2.jpg">
                 <div class=" text">
-                    <h1 class="welcome">BEUTY OF THE</h1>
+                    <h1 >BEUTY OF THE</h1>
                     <p class="quote">BOT</p>
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image3.jpg">
                 <div class="text">
-                    <h1 class="welcome">BEAUTY OF THE AWESOME</h1>
+                    <h1 >BEAUTY OF THE AWESOME</h1>
                     <p class="quote">BOTA</p>
                 </div>
             </div>
             <div class="mySlides fade">
                 <img class="slide" src="./Supercompresed/image3.jpg">
                 <div class="text">
-                    <h1 class="welcome">BEAUTY OF THE AWESOME NATURE</h1>
+                    <h1>BEAUTY OF THE AWESOME NATURE</h1>
                     <p class="quote">BOTAN</p>
                 </div>
             </div>
@@ -114,7 +127,7 @@
             <!-- ammo -->
 
             <div class="ammo">
-                <p class="link-ammo">Photo by <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="A-span"><a
+                <p class="link-ammo">Photo by <br> &nbsp; &nbsp; &nbsp; &nbsp; <span class="A-span"><a
                             href="">Ammo</a></span></p>
             </div>
         </div>
@@ -206,7 +219,7 @@
             </div>
             <div class="books__content">
                 <div class="books__paragraph">
-                    You want an understanding & appreciation of the role plants play in all aspects of our world
+                    ‘‘You want an understanding & appreciation of the role plants play in all aspects of our world’’
                 </div>
                 <div class="books__showcase">
                     <img src="./Supercompresed/Copy of Untitled.jpg" alt="">
@@ -241,7 +254,7 @@
                 <div class="footer__logo">
                     <img loading="lazy" src="./Supercompresed/GPGC TIimergara.png" alt="">
                 </div>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, veritatis?</p> -->
+              
 
                 <ul class="footer__socials">
                     <li><a href=""> <i class="fa fa-facebook"></i> </a></li>
@@ -253,9 +266,9 @@
 
             </div>
             <div class="footer__bottom">
-                <p>powered by <a class="amo" target="_blank" href="http://127.0.0.1:5500/amo.html">Amouzi</a></p>
+                <p>powered by <a onclick="document.location='amo.html'" class="amo" target="_blank" href="">Amouzi</a></p>
                 <p>
-                    &copy;2021 Botany dptt GPGC-tmg
+                &copy;2021 Botany dptt GPGC-tmg
                 </p>
 
             </div>
@@ -269,7 +282,7 @@
 
 
     <script src="navbar.js"></script>
-    <!-- <script src="loader.js"></script> -->
+    <script src="loader.js"></script>
     <script src="slideShow.js"></script>
     <script src="backToTop.js"></script>
 

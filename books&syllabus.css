@@ -30,7 +30,9 @@
     margin: 0px 23px;
     font-size: 20px;
     color: black;
+    padding: 5px;
 }
+
 
 .books__showcase img {
     width: 60vw;
